@@ -1,0 +1,17 @@
+/*Assignment-2 Y.L.Ramakrishna AWDC KKD 07-02-22 *//*Print next charater*/
+#include<stdio.h>
+int main()
+{
+    int c=0;
+    char ch, s[50];
+    printf("Enter any string\n");
+    scanf("%s",s);
+    while(s[c]!='\0')
+    {
+        ch=s[c];
+        s[c]=s[c]+1;
+        c++;
+    }
+   printf("%s\n",s);
+   return 0;
+}
